@@ -65,4 +65,9 @@ public class UserService {
             .equals(state))
         .collect(Collectors.toSet());
   }
+
+  public User getUser(String userId) {
+    //TODO: add
+    return new User(null, null, null);
+  }
 }

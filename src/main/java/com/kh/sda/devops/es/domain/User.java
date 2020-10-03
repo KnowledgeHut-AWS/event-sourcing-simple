@@ -12,7 +12,7 @@ public class User {
   private Set<Contact> contacts = new HashSet<>();
   private Set<Address> addresses = new HashSet<>();
 
-  public User(String userid, String firstname, String lastname, Set<Contact> contacts, Set<Address> addresses) {
+  public User(String userid, String firstname, String lastname) {
     this.userid = userid;
     this.firstname = firstname;
     this.lastname = lastname;

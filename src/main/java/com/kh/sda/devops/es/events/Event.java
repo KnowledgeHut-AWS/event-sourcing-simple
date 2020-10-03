@@ -1,9 +1,7 @@
-package com.kh.sda.devops.es;
+package com.kh.sda.devops.es.events;
 
-import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
-import java.time.ZoneOffset;
 import java.util.Date;
 import java.util.UUID;
 

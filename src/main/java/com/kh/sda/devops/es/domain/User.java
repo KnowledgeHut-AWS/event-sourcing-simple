@@ -16,8 +16,6 @@ public class User {
         this.userid = userid;
         this.firstname = firstname;
         this.lastname = lastname;
-        this.contacts = contacts;
-        this.addresses = addresses;
     }
 
     public String getUserid() {
